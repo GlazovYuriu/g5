@@ -182,6 +182,15 @@ public class PanelControl extends GridPanel {
             PanelRendering.task.solve();
         });
         buttons.add(solve);
+        solve.setOnClick(() -> {
+            if (!PanelRendering.task.isSolved()) {
+                PanelRendering.task.solve();
+                solve.text = "Сбросить";
+            } else {
+                cancelTask();
+            }
+            window.requestFrame();
+        });
     }
 
     /**
