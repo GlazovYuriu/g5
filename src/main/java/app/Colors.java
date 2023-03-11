@@ -19,6 +19,10 @@ public class Colors {
      */
     public static final int CROSSED_COLOR = Misc.getColor(200, 0, 255, 255);
     /**
+     * Цвет заливки панели
+     */
+    public static final int DIALOG_BACKGROUND_COLOR = Misc.getColor(230, 70, 38, 83);
+    /**
      * Цвет подложки
      */
     public static final int STATS_BACKGROUND_COLOR = Misc.getColor(64, 51, 200, 51);
