@@ -70,6 +70,14 @@ public class Colors {
      * Цвет кнопки
      */
     public static final int BUTTON_COLOR = Misc.getColor(80, 0, 0, 0);
+    /**
+     * Цвет заливки панели
+     */
+    public static final int SCROLLER_BACKGROUND_COLOR = Misc.getColor(150, 83, 38, 70);
+    /**
+     * Цвет заливки панели
+     */
+    public static final int SCROLLER_COLOR = Misc.getColor(255, 83, 38, 70);
 
     /**
      * Запрещённый конструктор
